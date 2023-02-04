@@ -87,7 +87,7 @@ function buildCharts(sample) {
     var barData = {
       x: sampleValues,
       y: yticks,
-      type: "bar",
+      type: 'bar',
       text: labels
 
 
