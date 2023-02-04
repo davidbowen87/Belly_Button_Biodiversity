@@ -84,9 +84,14 @@ function buildCharts(sample) {
     var yticks = otuIds.slice(0,10).reverse().map(function(elem) {return `OTU ${elem}`});
 
     // Deliverable 1: 8. Create the trace for the bar chart. 
-    var barData = [
+    var barData = {
+      x: sampleValues,
+      y: yticks,
+      type: "bar",
+      text: labels
 
-    ];
+
+  };
 
     // Deliverable 1: 9. Create the layout for the bar chart. 
     var barLayout = {
