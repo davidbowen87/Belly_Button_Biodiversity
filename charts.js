@@ -95,11 +95,12 @@ function buildCharts(sample) {
 
     // Deliverable 1: 9. Create the layout for the bar chart. 
     var barLayout = {
+      title: "Top 10 Bacteria Found"
 
     };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout. 
-
+    Plotly.newPlot("bar", [barData], barLayout);
     // Deliverable 2: 1. Create the trace for the bubble chart.
 
     // Deliverable 2: 2. Create the layout for the bubble chart.
