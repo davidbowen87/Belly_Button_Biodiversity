@@ -123,11 +123,11 @@ function buildCharts(sample) {
       hovermode: 'closest',
       // Not sure what hoverdistance does, need more research on this. 
       hoverdistance: 100,
-      // height: 600,
-      // width: 1200
+      height: 600,
+      width: 1200
     };
     // Deliverable 2: 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot("bubble", data1, bubbleLayout)
+    Plotly.newPlot("bubble", [data1], bubbleLayout)
     // Deliverable 3: 4. Create the trace for the gauge chart.
     
     // Deliverable 3: 5. Create the layout for the gauge chart.
