@@ -88,7 +88,7 @@ function buildCharts(sample) {
       x: sampleValues,
       y: yticks,
       type: 'bar',
-      text: text,
+      text: otuLabels,
       orientation: "h"
 
 
