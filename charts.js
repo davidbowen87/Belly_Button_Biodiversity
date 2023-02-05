@@ -88,8 +88,10 @@ function buildCharts(sample) {
 
     // Deliverable 1: 8. Create the trace for the bar chart. 
     var barData = [{
-      x: sampleValues,
       y: yticks,
+      x: sampleValues,
+      // x: sampleValues,
+      // y: yticks,
       type: 'bar',
       text: otuIds,
       orientation: "h"
