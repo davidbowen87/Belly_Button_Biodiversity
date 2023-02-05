@@ -91,7 +91,7 @@ function buildCharts(sample) {
       x: sampleValues,
       y: yticks,
       type: 'bar',
-      text: labels,
+      text: otuIds,
       orientation: "h"
 
 
