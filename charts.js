@@ -126,7 +126,7 @@ function buildCharts(sample) {
       xaxis: {title: "OTU ID"},
       showlegend: false,
       hovermode: 'closest',
-      text: otuLabels,
+      text: [otuLabels],
       // // Not sure what hoverdistance does, need more research on this. 
       hoverdistance: 100,
       height: 600,
