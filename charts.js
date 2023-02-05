@@ -120,6 +120,9 @@ function buildCharts(sample) {
       title: 'Bacteria Bubbles',
       xaxis: {title: "OTU ID"},
       showlegend: false,
+      hovermode: 'closest',
+      // Not sure what hoverdistance does, need more research on this. 
+      hoverdistance: 100,
       height: 600,
       width: 600
     };
