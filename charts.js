@@ -86,8 +86,7 @@ function buildCharts(sample) {
     // Deliverable 1: 8. Create the trace for the bar chart. 
     var barData = [{
       x: sampleValues,
-      y: otuIds,
-      // y: yticks,
+      y: yticks,
       type: 'bar',
       text: otuLabels,
       orientation: "h"
@@ -102,7 +101,7 @@ function buildCharts(sample) {
     };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("bar", [barData], barLayout);
+    Plotly.newPlot("bar", barData, barLayout);
     // Deliverable 2: 1. Create the trace for the bubble chart.
     var trace = {
       x: otuIds,
