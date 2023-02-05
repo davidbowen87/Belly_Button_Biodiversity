@@ -107,7 +107,7 @@ function buildCharts(sample) {
     };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("bar", [barData], barLayout);
+    Plotly.newPlot("bar", barData, barLayout);
     // Deliverable 2: 1. Create the trace for the bubble chart.
     var trace = {
       x: otuIds,
@@ -126,14 +126,14 @@ function buildCharts(sample) {
       xaxis: {title: "OTU ID"},
       showlegend: false,
       hovermode: 'closest',
-      text: [otuLabels],
+      text: otuLabels,
       // // Not sure what hoverdistance does, need more research on this. 
       hoverdistance: 100,
       height: 600,
       width: 1200
     };
     // Deliverable 2: 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot("bubble", [trace], bubbleLayout)
+    Plotly.newPlot("bubble", trace, bubbleLayout)
     // Deliverable 3: 4. Create the trace for the gauge chart.
     var gaugeData = {
       value: washFreq,
@@ -148,11 +148,6 @@ function buildCharts(sample) {
           {range: [4,6], color: "gold"},
           {range: [6,8], color: "lawngreen"},
           {range: [8,10], color: "limegreen"}
-          // {range: [0,2], color:"#ea2c2c"},
-          // {range: [2,4], color:"#ea822c"},
-          // {range: [4,6], color:"#ee9c00"},
-          // {range: [6,8], color:"#eecc00"},
-          // {range: [8,10], color:"#d4ee00"}
         ]
       }
     };
