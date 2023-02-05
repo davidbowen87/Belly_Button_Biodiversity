@@ -118,6 +118,7 @@ function buildCharts(sample) {
     // Deliverable 2: 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title: 'Bacteria Bubbles',
+      xaxis: {title: "OTU ID"},
       showlegend: false,
       height: 600,
       width: 600
