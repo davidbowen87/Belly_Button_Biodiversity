@@ -96,7 +96,7 @@ function buildCharts(sample) {
 
     // Deliverable 1: 9. Create the layout for the bar chart. 
     var barLayout = {
-      title: "Top 10 Bacteria"
+      title: "Top 10 Bacteria",
 
     };
 
@@ -106,7 +106,7 @@ function buildCharts(sample) {
     var trace = {
       x: otuIds,
       y: sampleValues,
-      text: text,
+      text: otuLabels,
       mode: 'markers',
       marker: {
         size: sampleValues,
