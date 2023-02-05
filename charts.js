@@ -136,7 +136,7 @@ function buildCharts(sample) {
     Plotly.newPlot("bubble", [trace], bubbleLayout)
     // Deliverable 3: 4. Create the trace for the gauge chart.
     var gaugeData = {
-      value: washingFreq,
+      value: washFreq,
       title: {text: "Belly Button Washing Frequency<br>Scrubs per Week"},
       type: "indicator",
       mode: "gauge+number",
