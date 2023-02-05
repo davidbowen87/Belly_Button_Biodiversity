@@ -106,7 +106,7 @@ function buildCharts(sample) {
     var trace = {
       x: otuIds,
       y: sampleValues,
-      text: otuLabels,
+      text: text,
       mode: 'markers',
       marker: {
         size: sampleValues,
