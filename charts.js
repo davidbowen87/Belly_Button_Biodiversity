@@ -101,7 +101,7 @@ function buildCharts(sample) {
     };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("bar", barData, barLayout);
+    Plotly.newPlot("bar", [barData], barLayout);
     // Deliverable 2: 1. Create the trace for the bubble chart.
     var trace = {
       x: otuIds,
