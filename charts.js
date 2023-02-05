@@ -67,7 +67,7 @@ function buildCharts(sample) {
     // Deliverable 3: 1. Create a variable that filters the metadata array for the object with the desired sample number.
 
     // Deliverable 1: 5. Create a variable that holds the first sample in the array.
-    var cleanSamples = rsamples[0]
+    var cleanSample = rsamples[0]
     // Deliverable 3: 2. Create a variable that holds the first sample in the metadata array.
 
     // Deliverable 1: 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
