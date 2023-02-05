@@ -143,7 +143,8 @@ function buildCharts(sample) {
       gauge: {
         axis: {range: [0,10]},
         steps: [
-          {range: [0,2], color:"#ea2c2c"},
+          {range: [0,2], color: "tomato"},
+          // {range: [0,2], color:"#ea2c2c"},
           {range: [2,4], color:"#ea822c"},
           {range: [4,6], color:"#ee9c00"},
           {range: [6,8], color:"#eecc00"},
