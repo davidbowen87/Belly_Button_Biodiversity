@@ -86,10 +86,10 @@ function buildCharts(sample) {
 
     // Deliverable 1: 8. Create the trace for the bar chart. 
     var barData = [{
-      // y: yticks,
-      // x: sampleValues,
-      x: sampleValues,
       y: yticks,
+      x: sampleValues,
+      // x: sampleValues,
+      // y: yticks,
       type: 'bar',
       orientation: "h",
       text: otuLabels
@@ -121,7 +121,7 @@ function buildCharts(sample) {
     var bubbleLayout = {
       title: 'Bacteria Bubbles',
       xaxis: {title: "OTU ID"},
-      showlegend: false
+      showlegend: false,
       hovermode: 'closest',
       text: otuLabels,
       // // Not sure what hoverdistance does, need more research on this. 
