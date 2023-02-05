@@ -133,7 +133,7 @@ function buildCharts(sample) {
       width: 1200
     };
     // Deliverable 2: 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot("bubble", trace, bubbleLayout)
+    Plotly.newPlot("bubble", [trace], bubbleLayout)
     // Deliverable 3: 4. Create the trace for the gauge chart.
     var gaugeData = {
       value: washFreq,
