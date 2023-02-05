@@ -106,7 +106,7 @@ function buildCharts(sample) {
     var trace = {
       x: otuIds,
       y: sampleValues,
-      text: text,
+      text: otuIds,
       mode: 'markers',
       marker: {
         size: sampleValues,
@@ -127,7 +127,7 @@ function buildCharts(sample) {
       width: 1200
     };
     // Deliverable 2: 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot("bubble", [data1], bubbleLayout)
+    Plotly.newPlot("bubble", data1, bubbleLayout)
     // Deliverable 3: 4. Create the trace for the gauge chart.
     
     // Deliverable 3: 5. Create the layout for the gauge chart.
