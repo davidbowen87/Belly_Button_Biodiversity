@@ -112,7 +112,7 @@ function buildCharts(sample) {
     var trace = [{
       x: otuIds,
       y: sampleValues,
-      text: [otuLabels],
+      text: otuLabels,
       mode: 'markers',
       marker: {
         size: sampleValues,
